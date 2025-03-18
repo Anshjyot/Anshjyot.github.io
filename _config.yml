@@ -14,7 +14,7 @@ github_username: "Anshjyot"
 # ==========================
 # 🔧 Build & Plugins
 # ==========================
-theme: minima # You can replace this with another Jekyll theme
+remote_theme: "daattali/beautiful-jekyll"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag  # Improves SEO with meta tags

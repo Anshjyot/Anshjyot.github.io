@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Welcome to My Data Visualization Hub
 ---
+
+Welcome to **Anshjyot Singh's Data Visualization Hub**! 🚀  
+
+Here, you'll find **interactive visualizations** and **data-driven insights** on various topics.  
+Stay tuned for blog posts, charts, and interactive analytics!

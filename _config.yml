@@ -1,30 +1,21 @@
-# ==========================
-# 🌐 Site Settings
-# ==========================
 title: "Data Visualization Hub"
 author: "Anshjyot Singh"
 email: "215606@dtu.dk"
 description: >-
   A website showcasing interactive data visualizations and analytics.
   Explore insights through dynamic charts, maps, and dashboards.
-baseurl: "" # Keep empty for root domain
-url: "https://Anshjyot.github.io" # GitHub Pages URL
+baseurl: "" 
+url: "https://Anshjyot.github.io" 
 github_username: "Anshjyot"
 
-# ==========================
-# 🔧 Build & Plugins
-# ==========================
 remote_theme: "daattali/beautiful-jekyll"
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag  # Improves SEO with meta tags
-  - jekyll-sitemap  # Generates a sitemap.xml for search engines
-  - jekyll-paginate # Enables pagination for blog posts
-  - jekyll-archives # Organizes posts by year, month, and tags
+  - jekyll-seo-tag  
+  - jekyll-sitemap  
+  - jekyll-paginate 
+  - jekyll-archives 
 
-# ==========================
-# 🗂 Navigation Menu (Custom Links)
-# ==========================
 navigation:
   - title: "Home"
     url: "/"
@@ -37,18 +28,11 @@ navigation:
   - title: "Contact"
     url: "/contact"
 
-
-# ==========================
-# 📂 Content Configuration
-# ==========================
 collections:
   projects:
     output: true
     permalink: /projects/:title/
 
-# ==========================
-# 🚫 Exclusions (Files/Folders to Ignore)
-# ==========================
 exclude:
   - .jekyll-cache/
   - .sass-cache/

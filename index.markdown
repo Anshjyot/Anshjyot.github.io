@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Mapping San Francisco's Drug Crisis: A War on Drugs or a War on the Visible?"
-date: 2025-03-26
-categories: drugs visualization
+permalink: /
+show_excerpts: false
 ---
+
 
 San Francisco has long been a focal point in America’s evolving relationship with drug policy—often hailed for its harm reduction efforts, but also criticized for its visible public health crises. In recent years, the city has made headlines again—not for innovation, but for a surge in arrests. With political promises to “take back the streets,” the question arises: is the city addressing a drug crisis, or staging a war on visibility?
 

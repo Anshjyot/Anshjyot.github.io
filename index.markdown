@@ -6,41 +6,66 @@ show_excerpts: false
 ---
 
 
-San Francisco has long been a focal point in America’s evolving relationship with drug policy—often hailed for its harm reduction efforts, but also criticized for its visible public health crises. In recent years, the city has made headlines again—not for innovation, but for a surge in arrests. With political promises to “take back the streets,” the question arises: is the city addressing a drug crisis, or staging a war on visibility?
+San Francisco has long been a focal point in America’s evolving relationship with drug policy—praised for progressive harm reduction strategies, but also criticized for its visible public health crises. In recent years, the city has made headlines again—not for innovation, but for a sudden spike in arrests. With political promises to “take back the streets,” the question arises: is the city addressing a drug crisis, or staging a war on visibility?
 
-In this story, we turn to the San Francisco Crime Dataset to better understand this shifting landscape. Through three visualizations, we explore how drug-related arrests have changed over time, where they’re concentrated, and what the data reveals about the city’s policing strategies.
+In this story, we turn to the San Francisco Crime Dataset to better understand this shifting landscape. Exploring how drug-related arrests have changed over time, where they’re concentrated, and what the data reveals about the city’s policing strategies.
 
 ---
 
 ## 📈 Arrests on the Rise — A Sudden Shift
 
-For much of the 2010s, reported drug/narcotic offenses in San Francisco were on the decline. That trend reversed dramatically starting in 2022, with the number of arrests spiking in just a single year.
+For much of the 2010s, drug and narcotic-related arrests in San Francisco were on a steady decline. The data suggested a shift in priorities—possibly from aggressive enforcement to harm-reduction and community-based intervention. But that trajectory changed sharply in 2022, when the number of arrests suddenly spiked after more than a decade of falling numbers.
 
-![Insert Time-Series or Bar Chart Here]
+A clearer narrative takes shape when we zoom out and look at the long-term trajectory of drug-related arrests. Over the past two decades, the number of incidents steadily declined—a trend that reflected shifting attitudes toward drug enforcement and perhaps the broader embrace of harm-reduction strategies.
 
-This abrupt uptick isn’t happening in a vacuum. In mid-2022, newly elected Mayor Daniel Lurie launched a sweeping crackdown on open-air drug markets—particularly in areas like the **Tenderloin**, long known as an epicenter of visible substance use. According to the [San Francisco Chronicle](https://www.sfchronicle.com/crime/article/sf-drug-arrest-data-dealers-users-police-20217830.php), arrests for minor drug offenses rose by nearly **40%**, with many involving unhoused or low-income individuals.
+That pattern came to an abrupt end in 2022.
+When viewed **year over year**, the data reveals a dramatic shift. After years of decline, drug arrests rose nearly **40%** in 2022 alone. The timing aligns with a high-profile crackdown led by Mayor Daniel Lurie, aimed at dismantling open-air drug markets in neighborhoods like the **Tenderloin**. The mayor’s initiative, framed as a public safety effort, led to an increase in visible enforcement across the city.
+
+![Yearly Drug/Narcotic Incidents](assets/images/time_series_plot3.png)
+
+While arrest counts are often interpreted as a proxy for crime severity or prevalence, the data here may be telling a different story: one shaped not by a surge in drug use, but by a significant change in policing policy. The sharp uptick points less toward a new crisis and more toward a **renewed emphasis on visibility and control**—especially in areas where the city's most vulnerable residents live.
+
+This surge coincides with a significant change in city policy. In mid-2022, newly elected Mayor Daniel Lurie launched a citywide crackdown on open-air drug markets, focused heavily on neighborhoods like the **Tenderloin**, long known as an epicenter of visible substance use. According to the [San Francisco Chronicle](https://www.sfchronicle.com/crime/article/sf-drug-arrest-data-dealers-users-police-20217830.php), arrests for minor drug offenses rose by nearly **40%**, with many involving unhoused or low-income individuals. Public messaging around the campaign emphasized safety and visibility—but critics argue that this enforcement-first approach may disproportionately target those already most vulnerable: unhoused individuals, people in recovery, or those simply caught using in public spaces.
 
 While the policy shift was framed as a public safety measure, the data raises a critical question: are these enforcement spikes targeting major dealers, or simply sweeping up the most visible users?
+
+What the time series reveals isn’t just a policy shift—it’s a story of visibility, power, and where a city chooses to act.
+
 
 ---
 
 ## 🗺️ Geography of Enforcement — The Same Neighborhoods, Over and Over
 
-To understand where the crackdown is playing out, we mapped the geographic distribution of drug-related arrests across the city. Unsurprisingly, one neighborhood dominates.
+To understand where the crackdown is playing out, we mapped the geographic distribution of drug-related arrests across the city using two approaches.
 
-![Insert Map Visualization Here]
+The first, a **choropleth map**, highlights arrest concentration per police district across the city. The **Tenderloin** emerges as a clear hotspot, but it’s far from the only one. Elevated arrest counts are also seen in Mission, Southern, and Bayview districts. These areas include or border well-known hotspots such as:
 
-The **Tenderloin** emerges as a clear hotspot, but it's far from the only one. Arrest clusters also appear around **UN Plaza**, **Civic Center BART**, and sections of **SoMa** and the **Mission**. What connects these places? Many are home to **shelters**, **public housing**, and **services for vulnerable populations**.
+    UN Plaza and Civic Center BART (Southern District)
 
-Cross-referencing our dataset’s coordinates with OpenStreetMap reveals that some of the most frequent arrest locations are within feet of needle exchange centers or transitional housing. This lends weight to critics’ concerns: that enforcement doesn’t necessarily follow the drug trade, but instead concentrates on **where the crisis is most visible**.
+    SoMa (South of Market) (Southern & Mission Districts)
+
+    24th Street Corridor (Mission District)
+
+![Drug/Narcotic Crime Hotspots](assets/images/drug_choropleth.png)
+
+What many of these locations share is a dense presence of public housing, homeless shelters, and support services—which some argue has led to disproportionate policing of visible poverty rather than targeting organized drug networks.
+
+According to a report by the San Francisco Chronicle referenced earlier, many of the city's drug arrests in recent years have occurred within feet of harm-reduction centers, this lends weight to critics’ concerns: that enforcement doesn’t necessarily follow the drug trade, but instead concentrates on **where the crisis is most visible**.
+
+
+We also built an **interactive heatmap animation** to explore how hotspots have shifted over the past two decades. Each frame shows a year from **2003 to 2024**, capturing the evolving geography of arrests.
+
+<iframe src="assets/images/drug_heatmap_yearly.html" width="100%" height="600" style="border:none;"></iframe>
 
 ---
 
-## 🖱️ When and Where? An Interactive Look at Enforcement Patterns
+## When and Where? An Interactive Look at Enforcement Patterns
 
-Beyond place, **time** is another layer in understanding enforcement. Using an interactive visualization built in Bokeh, we explored drug-related arrests by **hour of day**, **district**, and **year**.
+WRITE SOMETHING HERE USING BOKEH
 
-👉 *(Embed Bokeh HTML or iframe your interactive plot here)*
+USE Iframe.
+
+MAYBE something with time or whatever: Inspiration below:
 
 What stands out is a consistent rhythm: arrests peak between **afternoon and early evening**, aligning not necessarily with drug activity but perhaps with standard **patrol schedules**. Meanwhile, districts like **Tenderloin**, **Mission**, and **Bayview** show consistently high arrest counts, though the intensity fluctuates year to year.
 

@@ -61,20 +61,15 @@ An **interactive heatmap animation** illustrates how hotspots have shifted over 
 
 ## When and Where? An Interactive Look at Enforcement Patterns
 
-<p>
-  When looking at arrest patterns more in detail, we notice more subtle changes over the years.
-  The following visualization shows the number of arrests by hours and by districts over the past 20 years. It allows for comparisons between areas of the city, and between different political directions.
-</p>
 
-<iframe src="assets/images/bokeh_plot.html" style="width: 100%; max-width: 1100px; height: 500px; border:none;"></iframe>
+When looking at arrest patterns more in detail, we notice more subtle changes over the years.
+The following visualization shows the number of arrests by hours and by districts over the past 20 years. It allows for comparisons between areas of the city, and between different drug policies.
 
-<p>
-  What stands first out is a consistent rhythm: arrests peak between **afternoon and early evening**, aligning not necessarily with drug activity but perhaps with standard **patrol schedules**. While districts like **Tenderloin**, **Mission**, and **Southern** show consistently high arrest counts, this plot also gives an idea of focus shifts in policies. For example, in the last few years it seems the **Tenderloin** area has been receiving more attention, perhaps because of its central location.
-</p>
+<iframe src="assets/images/bokeh_plot.html" style="width: 110%; height: 500px; border:none;"></iframe>
 
-<p>
-  This tool allows for a deeper exploration of shifts in policing over time—zooming in on patterns that may reflect citywide strategies or district-level decision-making. It invites us to investigate: does the data support the narrative of a public health intervention, or one of targeted enforcement?
-</p>
+What stands first out is a consistent rhythm: arrests peak between **afternoon and early evening**, aligning not necessarily with drug activity but perhaps with standard **patrol schedules**. While districts like **Tenderloin**, **Mission**, and **Southern** show consistently high arrest counts, this plot also gives an idea of focus shifts in policies. For example, in the last few years it seems the **Tenderloin** area has been receiving more attention, perhaps because of its central location.
+
+This tool allows for a deeper exploration of shifts in policing over time—zooming in on patterns that may reflect citywide strategies or district-level decision-making. It invites us to investigate: does the data support the narrative of a public health intervention, or one of targeted enforcement?
 
 ---
 

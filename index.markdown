@@ -26,7 +26,7 @@ When viewed **year over year**, the data reveals a dramatic shift.
 
 While arrest counts are often interpreted as a sign for crime severity, the data in this case may be telling a different story: What looks like a spike in drug-related arrests may have less to do with a rise in drug use and more to do with a shift in how the city is policing. The sharp uptick points less toward a new crisis and more toward a **renewed emphasis on visibility and control**—especially in areas where the city’s most vulnerable residents live.
 
-This surge aligns with a significant shift in city policy. In December 2021, Mayor London Breed declared a 90-day state of emergency in the Tenderloin, citing rising overdoses and deteriorating street conditions. In the months that followed, her administration took a more assertive approach—culminating in mid-2023 with the creation of a **unified command center** to coordinate law enforcement efforts across city and state agencies ([Los Angeles Times](https://www.latimes.com/california/story/2021-12-17/san-francisco-mayor-state-of-emergency-overdoses-in-tenderloin-district)).
+This surge aligns with a significant shift in city policy. In December 2021, Mayor London Breed declared a 90-day state of emergency in the Tenderloin District, citing rising overdoses and deteriorating street conditions. In the months that followed, her administration took a more assertive approach—culminating in mid-2023 with the creation of a **unified command center** to coordinate law enforcement efforts across city and state agencies ([Los Angeles Times](https://www.latimes.com/california/story/2021-12-17/san-francisco-mayor-state-of-emergency-overdoses-in-tenderloin-district)).
 
 According to a [San Francisco Chronicle](https://www.sfchronicle.com/sf/article/sf-drug-crackdown-dealers-18561747.php) report from late 2023, nearly **700 people** were arrested for selling drugs in just six months under this joint initiative, with more than **900 suspected dealers** arrested in the Tenderloin and SoMa alone that year—almost double the number from 2022. Another **800 individuals** were arrested for public drug use. Public messaging emphasized safety and neighborhood revitalization, but critics argue this campaign disproportionately affected unhoused individuals and those struggling with addiction, while offering few long-term solutions. Public messaging around the campaign emphasized safety and visibility—but critics argue that this enforcement-first approach may disproportionately target those already most vulnerable: unhoused individuals, people in recovery, or those simply caught using in public spaces. The mayor’s initiative, framed as a public safety effort, led to an increase in visible enforcement across the city. The data raises a critical question: are these enforcement spikes targeting major dealers, or simply sweeping up the most visible users?
 
@@ -61,15 +61,20 @@ An **interactive heatmap animation** illustrates how hotspots have shifted over 
 
 ## When and Where? An Interactive Look at Enforcement Patterns
 
-WRITE SOMETHING HERE USING BOKEH
+<p>
+  When looking at arrest patterns more in detail, we notice more subtle changes over the years.
+  The following visualization shows the number of arrests by hours and by districts over the past 20 years. It allows for comparisons between areas of the city, and between different political directions.
+</p>
 
-USE Iframe.
+<iframe src="assets/images/bokeh_plot.html" style="width: 100%; max-width: 1100px; height: 500px; border:none;"></iframe>
 
-MAYBE something with time or whatever: Inspiration below:
+<p>
+  What stands first out is a consistent rhythm: arrests peak between **afternoon and early evening**, aligning not necessarily with drug activity but perhaps with standard **patrol schedules**. While districts like **Tenderloin**, **Mission**, and **Southern** show consistently high arrest counts, this plot also gives an idea of focus shifts in policies. For example, in the last few years it seems the **Tenderloin** area has been receiving more attention, perhaps because of its central location.
+</p>
 
-What stands out is a consistent rhythm: arrests peak between **afternoon and early evening**, aligning not necessarily with drug activity but perhaps with standard **patrol schedules**. Meanwhile, districts like **Tenderloin**, **Mission**, and **Bayview** show consistently high arrest counts, though the intensity fluctuates year to year.
-
-This tool lets us explore shifts in policing over time—zooming in on patterns that may reflect citywide strategies or district-level decision-making. It invites readers to investigate: does the data support the narrative of a public health intervention, or one of targeted enforcement?
+<p>
+  This tool allows for a deeper exploration of shifts in policing over time—zooming in on patterns that may reflect citywide strategies or district-level decision-making. It invites us to investigate: does the data support the narrative of a public health intervention, or one of targeted enforcement?
+</p>
 
 ---
 

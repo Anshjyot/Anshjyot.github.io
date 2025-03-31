@@ -28,7 +28,7 @@ While arrest counts are often interpreted as a sign for crime severity, the data
 
 This surge aligns with a significant shift in city policy. In December 2021, Mayor London Breed declared a 90-day state of emergency in the Tenderloin District, citing rising overdoses and deteriorating street conditions. In the months that followed, her administration took a more assertive approach—culminating in mid-2023 with the creation of a **unified command center** to coordinate law enforcement efforts across city and state agencies ([Los Angeles Times](https://www.latimes.com/california/story/2021-12-17/san-francisco-mayor-state-of-emergency-overdoses-in-tenderloin-district)).
 
-According to a [San Francisco Chronicle](https://www.sfchronicle.com/sf/article/sf-drug-crackdown-dealers-18561747.php) report from late 2023, nearly **700 people** were arrested for selling drugs in just six months under this joint initiative, with more than **900 suspected dealers** arrested in the Tenderloin and SoMa alone that year—almost double the number from 2022. Another **800 individuals** were arrested for public drug use. Public messaging emphasized safety and neighborhood revitalization, but critics argue this campaign disproportionately affected unhoused individuals and those struggling with addiction, while offering few long-term solutions. Public messaging around the campaign emphasized safety and visibility—but critics argue that this enforcement-first approach may disproportionately target those already most vulnerable: unhoused individuals, people in recovery, or those simply caught using in public spaces. The mayor’s initiative, framed as a public safety effort, led to an increase in visible enforcement across the city. The data raises a critical question: are these enforcement spikes targeting major dealers, or simply sweeping up the most visible users?
+According to a [San Francisco Chronicle](https://www.sfchronicle.com/sf/article/sf-drug-crackdown-dealers-18561747.php) report from late 2023, nearly **700 people** were arrested for selling drugs in just six months under this joint initiative, with more than **900 suspected dealers** arrested in the Tenderloin and SoMa alone that year—almost double the number from 2022. Another **800 individuals** were arrested for public drug use. Public messaging around the campaign emphasized safety and visibility—but critics argue that this enforcement-first approach may disproportionately target those already most vulnerable: unhoused individuals, people in recovery, or those simply caught using in public spaces. The mayor’s initiative, framed as a public safety effort, led to an increase in visible enforcement across the city. The data raises a critical question: are these enforcement spikes targeting major dealers, or simply sweeping up the most visible users?
 
 What the time series reveals isn’t just a policy shift—it’s a story of visibility, power, and where a city chooses to act.
 
@@ -55,7 +55,8 @@ According to a report by the San Francisco Chronicle referenced earlier, many of
 
 An **interactive heatmap animation** illustrates how hotspots have shifted over the past two decades. Each frame shows a year from **2003 to 2024**, capturing the evolving geography of arrests.
 
-<iframe src="assets/images/drug_heatmap_yearly.html" width="100%" height="600" style="border:none;"></iframe>
+<iframe src="assets/images/drug_heatmap_yearly.html" style="width:106%; margin-left:-0.5%; height:600px; border:none; display: block;"></iframe>
+
 
 ---
 
@@ -69,7 +70,7 @@ The following visualization shows the number of arrests by hours and by district
 
 What stands first out is a consistent rhythm: arrests peak between **afternoon and early evening**, aligning not necessarily with drug activity but perhaps with standard **patrol schedules**. While districts like **Tenderloin**, **Mission**, and **Southern** show consistently high arrest counts, this plot also gives an idea of focus shifts in policies. For example, in the last few years it seems the **Tenderloin** area has been receiving more attention, perhaps because of its central location.
 
-This tool allows for a deeper exploration of shifts in policing over time—zooming in on patterns that may reflect citywide strategies or district-level decision-making. It invites us to investigate: does the data support the narrative of a public health intervention, or one of targeted enforcement?
+This allows for a deeper exploration of shifts in policing over time—zooming in on patterns that may reflect citywide strategies or district-level decision-making. It invites us to investigate: does the data support the narrative of a public health intervention, or one of targeted enforcement?
 
 ---
 
@@ -93,7 +94,7 @@ This story doesn’t end with data. But it does begin to reveal who bears the we
 
 4. **Los Angeles Times**. [SF Mayor declares Tenderloin emergency.](https://www.latimes.com/california/story/2021-12-17/san-francisco-mayor-state-of-emergency-overdoses-in-tenderloin-district)  
 
-5. **OpenStreetMap**. Used for verifying geolocations near shelters and transit stations. [https://www.openstreetmap.org/](https://www.openstreetmap.org/)  
+5. **OpenStreetMap**. [https://www.openstreetmap.org/](https://www.openstreetmap.org/)  
 
 6. **Segel, E., & Heer, J.** (2010). *Narrative Visualization: Telling Stories with Data.* IEEE Transactions on Visualization and Computer Graphics.
 

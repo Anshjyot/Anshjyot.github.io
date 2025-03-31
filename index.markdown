@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mapping San Francisco's Drug Crisis: A War on Drugs or a War on the Visible?"
+date: 2025-03-31
 permalink: /
 show_excerpts: false
 ---
@@ -19,15 +20,15 @@ For much of the 2010s, drug and narcotic-related arrests in San Francisco were o
 A clearer narrative takes shape when we zoom out and look at the long-term trajectory of drug-related arrests. Over the past two decades, the number of incidents steadily declined—a trend that reflected shifting attitudes toward drug enforcement and perhaps the broader embrace of harm-reduction strategies.
 
 That pattern came to an abrupt end in 2022.
-When viewed **year over year**, the data reveals a dramatic shift. After years of decline, drug arrests rose nearly **40%** in 2022 alone. The timing aligns with a high-profile crackdown led by Mayor Daniel Lurie, aimed at dismantling open-air drug markets in neighborhoods like the **Tenderloin**. The mayor’s initiative, framed as a public safety effort, led to an increase in visible enforcement across the city.
+When viewed **year over year**, the data reveals a dramatic shift. 
 
 ![Yearly Drug/Narcotic Incidents](assets/images/time_series_plot3.png)
 
-While arrest counts are often interpreted as a proxy for crime severity or prevalence, the data here may be telling a different story: one shaped not by a surge in drug use, but by a significant change in policing policy. The sharp uptick points less toward a new crisis and more toward a **renewed emphasis on visibility and control**—especially in areas where the city's most vulnerable residents live.
+While arrest counts are often interpreted as a sign for crime severity, the data in this case may be telling a different story: What looks like a spike in drug-related arrests may have less to do with a rise in drug use and more to do with a shift in how the city is policing. The sharp uptick points less toward a new crisis and more toward a **renewed emphasis on visibility and control**—especially in areas where the city’s most vulnerable residents live.
 
-This surge coincides with a significant change in city policy. In mid-2022, newly elected Mayor Daniel Lurie launched a citywide crackdown on open-air drug markets, focused heavily on neighborhoods like the **Tenderloin**, long known as an epicenter of visible substance use. According to the [San Francisco Chronicle](https://www.sfchronicle.com/crime/article/sf-drug-arrest-data-dealers-users-police-20217830.php), arrests for minor drug offenses rose by nearly **40%**, with many involving unhoused or low-income individuals. Public messaging around the campaign emphasized safety and visibility—but critics argue that this enforcement-first approach may disproportionately target those already most vulnerable: unhoused individuals, people in recovery, or those simply caught using in public spaces.
+This surge aligns with a significant shift in city policy. In December 2021, Mayor London Breed declared a 90-day state of emergency in the Tenderloin, citing rising overdoses and deteriorating street conditions. In the months that followed, her administration took a more assertive approach—culminating in mid-2023 with the creation of a **unified command center** to coordinate law enforcement efforts across city and state agencies ([Los Angeles Times](https://www.latimes.com/california/story/2021-12-17/san-francisco-mayor-state-of-emergency-overdoses-in-tenderloin-district)).
 
-While the policy shift was framed as a public safety measure, the data raises a critical question: are these enforcement spikes targeting major dealers, or simply sweeping up the most visible users?
+According to a [San Francisco Chronicle](https://www.sfchronicle.com/sf/article/sf-drug-crackdown-dealers-18561747.php) report from late 2023, nearly **700 people** were arrested for selling drugs in just six months under this joint initiative, with more than **900 suspected dealers** arrested in the Tenderloin and SoMa alone that year—almost double the number from 2022. Another **800 individuals** were arrested for public drug use. Public messaging emphasized safety and neighborhood revitalization, but critics argue this campaign disproportionately affected unhoused individuals and those struggling with addiction, while offering few long-term solutions. Public messaging around the campaign emphasized safety and visibility—but critics argue that this enforcement-first approach may disproportionately target those already most vulnerable: unhoused individuals, people in recovery, or those simply caught using in public spaces. The mayor’s initiative, framed as a public safety effort, led to an increase in visible enforcement across the city. The data raises a critical question: are these enforcement spikes targeting major dealers, or simply sweeping up the most visible users?
 
 What the time series reveals isn’t just a policy shift—it’s a story of visibility, power, and where a city chooses to act.
 
@@ -36,9 +37,9 @@ What the time series reveals isn’t just a policy shift—it’s a story of vis
 
 ## 🗺️ Geography of Enforcement — The Same Neighborhoods, Over and Over
 
-To understand where the crackdown is playing out, we mapped the geographic distribution of drug-related arrests across the city using two approaches.
+To understand where the crackdown is playing out, the geographic distribution of drug-related arrests across the city has been mapped using two spatial perspectives.
 
-The first, a **choropleth map**, highlights arrest concentration per police district across the city. The **Tenderloin** emerges as a clear hotspot, but it’s far from the only one. Elevated arrest counts are also seen in Mission, Southern, and Bayview districts. These areas include or border well-known hotspots such as:
+The first, a **choropleth map**, highlights arrest concentration per police district across the city. The color scale gives a visual cue: dark red areas represent districts with the highest number of arrests, while lighter shades indicate fewer. The exact arrest counts are shown next to the scale, giving a clearer sense of just how concentrated the activity is in certain areas. The **Tenderloin** emerges as a clear hotspot, but it’s far from the only one. Elevated arrest counts are also seen in Mission, Southern, and Bayview districts. These areas include or border well-known hotspots such as:
 
     UN Plaza and Civic Center BART (Southern District)
 
@@ -52,8 +53,7 @@ What many of these locations share is a dense presence of public housing, homele
 
 According to a report by the San Francisco Chronicle referenced earlier, many of the city's drug arrests in recent years have occurred within feet of harm-reduction centers, this lends weight to critics’ concerns: that enforcement doesn’t necessarily follow the drug trade, but instead concentrates on **where the crisis is most visible**.
 
-
-We also built an **interactive heatmap animation** to explore how hotspots have shifted over the past two decades. Each frame shows a year from **2003 to 2024**, capturing the evolving geography of arrests.
+An **interactive heatmap animation** illustrates how hotspots have shifted over the past two decades. Each frame shows a year from **2003 to 2024**, capturing the evolving geography of arrests.
 
 <iframe src="assets/images/drug_heatmap_yearly.html" width="100%" height="600" style="border:none;"></iframe>
 
@@ -85,13 +85,20 @@ This story doesn’t end with data. But it does begin to reveal who bears the we
 
 ## 📚 References
 
-1. **San Francisco Chronicle**. [SF’s new crackdown on drug markets leads to spike in arrests.](https://www.sfchronicle.com/crime/article/sf-drug-arrest-data-dealers-users-police-20217830.php)
+1. **San Francisco Chronicle**. [SF’s new crackdown on drug markets leads to spike in arrests.](https://www.sfchronicle.com/crime/article/sf-drug-arrest-data-dealers-users-police-20217830.php)  
 
-2. **OpenStreetMap**. Used for verifying geolocations near shelters and transit stations. [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
+2. **San Francisco Chronicle**. [SF drug crackdown: nearly 700 arrested in 6 months.](https://www.sfchronicle.com/sf/article/sf-drug-crackdown-dealers-18561747.php)  
 
-3. **Segel, E., & Heer, J.** (2010). *Narrative Visualization: Telling Stories with Data.* IEEE Transactions on Visualization and Computer Graphics.
+3. **KQED News**. [Why 40 SF drug arrests led to no charges.](https://www.kqed.org/news/12033114/sf-police-made-40-arrests-market-street-raid-why-was-no-one-charged)  
+
+4. **Los Angeles Times**. [SF Mayor declares Tenderloin emergency.](https://www.latimes.com/california/story/2021-12-17/san-francisco-mayor-state-of-emergency-overdoses-in-tenderloin-district)  
+
+5. **OpenStreetMap**. Used for verifying geolocations near shelters and transit stations. [https://www.openstreetmap.org/](https://www.openstreetmap.org/)  
+
+6. **Segel, E., & Heer, J.** (2010). *Narrative Visualization: Telling Stories with Data.* IEEE Transactions on Visualization and Computer Graphics.
+
 
 ---
 
-*Last updated: March 26, 2025*
+*Last updated: March 31, 2025*
 
